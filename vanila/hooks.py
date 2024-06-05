@@ -13,9 +13,32 @@ app_license = "mit"
 # app_include_css = "/assets/vanila/css/vanila.css"
 # app_include_js = "/assets/vanila/js/vanila.js"
 
-# include js, css files in header of web template
-# web_include_css = "/assets/vanila/css/vanila.css"
-# web_include_js = "/assets/vanila/js/vanila.js"
+# include js, css files in header of web templat
+#web_include_css = "https://fonts.googleapis.com"
+#web_include_css = "https://fonts.gstatic.com"
+#web_include_css = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+#web_include_css = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+#web_include_css = "/assets/vanila/css/style.css"
+#web_include_css = "/assets/vanila/css/bootstrap.min.css"
+#web_include_css = "/assets/vanila/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+#web_include_css = "/assets/vanila/lib/owlcarousel/assets/owl.carousel.min.css"
+#web_include_css = "/assets/vanila/lib/animate/animate.min.css"
+#web_include_css = "/assets/vanila/css/bootstrap.min.css"
+#web_include_css = "/assets/vanila/css/bootstrap.min.css"
+#
+#
+#
+#web_include_js = "https://code.jquery.com/jquery-3.4.1.min.js"
+#web_include_js = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+#web_include_js = "/assets/vanila/lib/wow/wow.min.js"
+#web_include_js = "/assets/vanila/lib/easing/easing.min.js"
+#web_include_js = "/assets/vanila/lib/waypoints/waypoints.min.js"
+#web_include_js = "/assets/vanila/lib/counterup/counterup.min.js"
+#web_include_js = "/assets/vanila/lib/owlcarousel/owl.carousel.min.js"
+#web_include_js = "/assets/vanila/lib/tempusdominus/js/moment.min.js"
+#web_include_js = "/assets/vanila/lib/tempusdominus/js/moment-timezone.min.js"
+#web_include_js = "/assets/vanila/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"
+#web_include_js = "/assets/vanila/js/main.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "vanila/public/scss/website"

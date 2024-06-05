@@ -1,0 +1,33 @@
+ <!-- Navbar & Hero Start -->
+ <div class="container-xxl position-relative p-0">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+		<a href="" class="navbar-brand p-0">
+			{%- if brand_html -%}
+				{{ brand_html }}
+			{%- elif banner_image -%}
+				<img src='{{ banner_image }}'>
+			{%- else -%}
+				<span>{{ (frappe.get_hooks("brand_html") or [_("Home")])[0] }}</span>
+			{%- endif -%}
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+			<span class="fa fa-bars"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			{% include "templates/includes/navbar/navbar_search.html" %}
+			
+			<div class="navbar-nav ms-auto py-0 pe-4">
+				{% include "templates/includes/navbar/navbar_items.html" %}
+				
+			</div>
+			{% include "templates/includes/navbar/navbar_login.html" %}
+			
+			
+		</div>
+	</nav>
+	
+	<div class="container-xxl py-5 bg-dark hero-header mb-5">
+		
+	</div>
+</div>
+<!-- Navbar & Hero End -->    
